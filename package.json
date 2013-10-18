@@ -1,0 +1,24 @@
+{
+  "name": "clockan-toggl",
+  "version": "0.1.0",
+  "author": "Václav Šír <vaclav.sir@gmail.com>",
+  "description": "Exports time entries from Toggl to Clockan.",
+  "contributors": [
+    {
+      "name": "Václav Šír",
+      "email": "vaclav.sir@gmail.com"
+    }
+  ],
+  "scripts": {
+    "clockan-toggl": "node ./run.js"
+  },
+  "dependencies": {
+    "strftime": "~0.6.2",
+    "xml2js": "~0.2.8"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}

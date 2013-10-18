@@ -1,0 +1,10 @@
+{
+  "startDate": "2013-10-08",
+  "endDate": "2013-10-13",
+  "togglApiKey": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "clockanApiKey": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "projects": {
+    "Toggl project name": "Clockan project name",
+    "test": "test - test new"
+  }
+}

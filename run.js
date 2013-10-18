@@ -137,7 +137,8 @@ var getClockanProjects = function (clockanApiKey, callback) {
     "path": "/projects.xml",
     "headers": {
       "Authorization": clockanAuthorizationHeader,
-      "Accept": "application/xml"
+      "Accept": "application/xml",
+      "User-Agent": userAgent
     }
   }, function (/**IncomingMessage*/ res) {
     var data = "";
@@ -173,6 +174,7 @@ var processReport = function (unreportedTimes, reportedTimes) {
     "headers": {
       "Authorization": clockanAuthorizationHeader,
       "Accept": "application/xml",
+      "User-Agent": userAgent
     }
   }, function (/**IncomingMessage*/ res) {
     var data = "";
